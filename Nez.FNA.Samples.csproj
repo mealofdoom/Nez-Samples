@@ -30,17 +30,17 @@
     <!-- Content copy rules -->
     <ItemGroup>
 		<!-- Includes Nez default effects and textures -->
-        <Content Include="../Nez/DefaultContent/textures/**/*.xnb">
+        <Content Include="../Nez_dotnet_standard/DefaultContent/textures/**/*.xnb">
             <Link>Content/nez/textures/%(RecursiveDir)%(Filename)%(Extension)</Link>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
-        <Content Include="../Nez/DefaultContent/FNAEffects/**/*.fxb">
+        <Content Include="../Nez_dotnet_standard/DefaultContent/FNAEffects/**/*.fxb">
             <Link>Content/nez/effects/%(RecursiveDir)%(Filename)%(Extension)</Link>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
 
 	    <!-- Include the Content directory svg files -->
-        <Content Include="Content/**/*.svg">
+        <Content Include="Content/**/*">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
 		
@@ -112,142 +112,142 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Content Update="..\Nez\DefaultContent\textures\heatDistortionNoise.xnb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\textures\heatDistortionNoise.xnb">
         <Link>Content\nez\textures\.\heatDistortionNoise.xnb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\textures\textureWipeTransition\angular.xnb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\textures\textureWipeTransition\angular.xnb">
         <Link>Content\nez\textures\textureWipeTransition\angular.xnb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\textures\textureWipeTransition\pokemon.xnb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\textures\textureWipeTransition\pokemon.xnb">
         <Link>Content\nez\textures\textureWipeTransition\pokemon.xnb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\textures\textureWipeTransition\horizontal.xnb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\textures\textureWipeTransition\horizontal.xnb">
         <Link>Content\nez\textures\textureWipeTransition\horizontal.xnb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\textures\textureWipeTransition\wink.xnb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\textures\textureWipeTransition\wink.xnb">
         <Link>Content\nez\textures\textureWipeTransition\wink.xnb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\textures\textureWipeTransition\sawTooth.xnb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\textures\textureWipeTransition\sawTooth.xnb">
         <Link>Content\nez\textures\textureWipeTransition\sawTooth.xnb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\textures\textureWipeTransition\diagonalDistort.xnb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\textures\textureWipeTransition\diagonalDistort.xnb">
         <Link>Content\nez\textures\textureWipeTransition\diagonalDistort.xnb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\textures\textureWipeTransition\noise.xnb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\textures\textureWipeTransition\noise.xnb">
         <Link>Content\nez\textures\textureWipeTransition\noise.xnb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\textures\textureWipeTransition\crissCross.xnb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\textures\textureWipeTransition\crissCross.xnb">
         <Link>Content\nez\textures\textureWipeTransition\crissCross.xnb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\textures\textureWipeTransition\spiral.xnb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\textures\textureWipeTransition\spiral.xnb">
         <Link>Content\nez\textures\textureWipeTransition\spiral.xnb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\DeferredSprite.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\DeferredSprite.fxb">
         <Link>Content\nez\effects\.\DeferredSprite.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\BloomCombine.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\BloomCombine.fxb">
         <Link>Content\nez\effects\.\BloomCombine.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\DeferredLighting.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\DeferredLighting.fxb">
         <Link>Content\nez\effects\.\DeferredLighting.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\MultiTexture.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\MultiTexture.fxb">
         <Link>Content\nez\effects\.\MultiTexture.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Invert.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Invert.fxb">
         <Link>Content\nez\effects\.\Invert.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Crosshatch.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Crosshatch.fxb">
         <Link>Content\nez\effects\.\Crosshatch.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\ForwardLighting.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\ForwardLighting.fxb">
         <Link>Content\nez\effects\.\ForwardLighting.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Bevels.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Bevels.fxb">
         <Link>Content\nez\effects\.\Bevels.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Dissolve.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Dissolve.fxb">
         <Link>Content\nez\effects\.\Dissolve.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Noise.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Noise.fxb">
         <Link>Content\nez\effects\.\Noise.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\TextureWipe.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\TextureWipe.fxb">
         <Link>Content\nez\effects\.\TextureWipe.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Letterbox.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Letterbox.fxb">
         <Link>Content\nez\effects\.\Letterbox.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Vignette.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Vignette.fxb">
         <Link>Content\nez\effects\.\Vignette.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\PolygonLight.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\PolygonLight.fxb">
         <Link>Content\nez\effects\.\PolygonLight.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\SpriteLines.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\SpriteLines.fxb">
         <Link>Content\nez\effects\.\SpriteLines.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\MultiTextureOverlay.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\MultiTextureOverlay.fxb">
         <Link>Content\nez\effects\.\MultiTextureOverlay.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\SpriteAlphaTest.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\SpriteAlphaTest.fxb">
         <Link>Content\nez\effects\.\SpriteAlphaTest.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Reflection.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Reflection.fxb">
         <Link>Content\nez\effects\.\Reflection.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Dots.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Dots.fxb">
         <Link>Content\nez\effects\.\Dots.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Wind.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Wind.fxb">
         <Link>Content\nez\effects\.\Wind.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\HeatDistortion.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\HeatDistortion.fxb">
         <Link>Content\nez\effects\.\HeatDistortion.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\SpriteBlinkEffect.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\SpriteBlinkEffect.fxb">
         <Link>Content\nez\effects\.\SpriteBlinkEffect.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Scanlines.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Scanlines.fxb">
         <Link>Content\nez\effects\.\Scanlines.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Grayscale.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Grayscale.fxb">
         <Link>Content\nez\effects\.\Grayscale.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\PaletteCycler.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\PaletteCycler.fxb">
         <Link>Content\nez\effects\.\PaletteCycler.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\SpriteLightMultiply.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\SpriteLightMultiply.fxb">
         <Link>Content\nez\effects\.\SpriteLightMultiply.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\SpriteEffect.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\SpriteEffect.fxb">
         <Link>Content\nez\effects\.\SpriteEffect.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Twist.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Twist.fxb">
         <Link>Content\nez\effects\.\Twist.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Squares.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Squares.fxb">
         <Link>Content\nez\effects\.\Squares.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\PixelGlitch.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\PixelGlitch.fxb">
         <Link>Content\nez\effects\.\PixelGlitch.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\BloomExtract.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\BloomExtract.fxb">
         <Link>Content\nez\effects\.\BloomExtract.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\GaussianBlur.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\GaussianBlur.fxb">
         <Link>Content\nez\effects\.\GaussianBlur.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\Sepia.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\Sepia.fxb">
         <Link>Content\nez\effects\.\Sepia.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\transitions\TextureWipe.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\transitions\TextureWipe.fxb">
         <Link>Content\nez\effects\transitions\TextureWipe.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\transitions\Wind.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\transitions\Wind.fxb">
         <Link>Content\nez\effects\transitions\Wind.fxb</Link>
       </Content>
-      <Content Update="..\Nez\DefaultContent\FNAEffects\transitions\Squares.fxb">
+      <Content Update="..\Nez_dotnet_standard\DefaultContent\FNAEffects\transitions\Squares.fxb">
         <Link>Content\nez\effects\transitions\Squares.fxb</Link>
       </Content>
     </ItemGroup>
