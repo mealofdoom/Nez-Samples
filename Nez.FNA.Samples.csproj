@@ -101,7 +101,7 @@
     </ItemGroup>
 	
 	<ItemGroup>
-        <Compile Include="..\Nez\Nez.Portable\Graphics\SVG\Shapes\Paths\SvgPathBuilder.cs">
+        <Compile Include="..\Nez_dotnet_standard\Nez.Portable\Graphics\SVG\Shapes\Paths\SvgPathBuilder.cs">
             <Link>Shared\SvgPathBuilder.cs</Link>
         </Compile>
 	</ItemGroup>
